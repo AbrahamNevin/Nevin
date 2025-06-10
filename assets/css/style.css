@@ -1180,3 +1180,13 @@ body.nav-active { overflow: hidden; }
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
 }
+.contact__input textarea,
+textarea.contact__input {
+  height: 200px; /* Increase or decrease as needed */
+  resize: vertical; /* Optional: allow user to resize vertically */
+}
+/* Increase height of the Description textarea */
+textarea.contact__input {
+  height: 200px;
+  resize: vertical; /* Optional */
+}
