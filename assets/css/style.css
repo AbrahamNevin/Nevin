@@ -1180,3 +1180,10 @@ body.nav-active { overflow: hidden; }
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/*==================== HERO ====================*/
+.h1.hero-title {
+  font-size: clamp(1.5rem, 5vw, 3rem); /* Responsive font size */
+  white-space: nowrap;                  /* Prevents breaking in the middle */
+  line-height: 1.2;                     /* Better spacing */
+}
